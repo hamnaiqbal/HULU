@@ -1,0 +1,23 @@
+.navigation{
+    display: flex;
+    color: white;
+    /* overflow-x: scroll; */
+    padding: 10px;
+    padding-left: 40px;
+}
+.nav::-webkit-scrollbar{
+    display: none;
+}
+.navigation > h2{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 100;
+    font-size:medium;
+    opacity: 0.7;
+    transition: transform 100ms ease-out;
+}
+.navigation > h2:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}

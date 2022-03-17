@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+   
+    padding: 10px;
+    align-items: center;
+    color:white;
+    justify-content: space-between;
+}
+.header > img{
+    object-fit: contain;
+    height: 50px;
+    margin-right: 15px;
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+
+}
+
+.header_IconTitle{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+.header_IconTitle > .MuiSvgIcon-root{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header_IconTitle > p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    display: none;
+
+}
+.header_IconTitle:hover >p{
+    display: inline;
+}
+.header_IconTitle-active > p{
+    display: inline;
+}
